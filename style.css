@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-wrap: normal;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgb(28, 28, 32);
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-family: "Bangers";
+}
+
+.brand-title:hover {
+    color: brown;
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.profile {
+    margin: .5rem;
+    font-size: 25px;
+}
+
+header{
+    margin-bottom: 0px;
+}
+
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.nav_links-ul{
+    padding-left: 0%;
+}
+
+.nav_links li a:hover {
+    color: rgb(236, 226, 226);
+    background-color: rgb(197, 38, 38);
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+}
+
+.coaching-submenu{
+    display: none;
+    position: absolute;
+    width: inherit;
+    overflow: auto;
+    background-color: #999;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.coaching:hover .coaching-submenu{
+    display: block;
+    align-items: center;
+    transition-delay: 00.3s;
+    transition: 0.3s;
+    text-align: center;
+}
+
+
+.DM_logo{
+    width: 45px;
+    margin-left: 20px;
+}
+
+.footer_logo{
+    width: 150px;
+}
+
+.promo-img{
+   
+    overflow-wrap: auto;
+    align-items: center;
+    display: flex;
+}
+
+.box_1, .box_2, .box-container{
+    display: flex;
+    display: block;
+    padding: 5% 15%;
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(rgba(26, 33, 39, 0.041), white);
+}
+
+.box_1-button, .box_2-button{
+    width: 400px;
+    height: 45px;
+    border: 0px;
+    background-color: rgb(197, 38, 38);
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+
+.workout_elements-button{
+    background-color: rgb(197, 38, 38);
+    border-radius: 30px;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 8px;
+    width: 500px;
+}
+
+
+
+/*newsletter div*/
+
+.newsletter_container{
+    justify-content: space-between;
+    display: flex;
+    display: block;
+    background-color: rgb(219, 219, 219);
+    align-items: center;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.newsletter_heading{
+    display: block;
+    font-size: 50px;
+    margin: 0%;
+    font-weight: 1000;
+}
+
+.email_textbox{
+    height: 45px;
+    width: 400px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.email_textbox:hover{
+    border-color: #999;
+    color: rgb(204, 204, 204);
+}
+
+.SU_button{
+    background-color: rgb(197, 38, 38);
+    border-radius: 10px;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    width: 150px;
+    height: 45px;
+    margin:10px;
+}
+
+.SU_button:hover, .box_1-button:hover, .box_2-button:hover, .workout_elements-button:hover{
+    background-color: rgba(197, 38, 38, 0.479);
+    transition: 0.3s;
+}
+
+
+
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(28, 28, 32);
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    padding: 3rem 1rem;
+}
+
+.footer__wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.footer__content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.footer__column {
+    padding-bottom: 2rem;
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.footer__submenu-link{
+    color: rgba(240, 248, 255, 0.527);
+    display: block;
+    text-decoration: none;
+}
+
+.footer__submenu-link:hover{
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.social-icon{
+    fill: #999;
+}
+
+.social-icon:hover {
+    fill: aliceblue;
+    transition: 0.3s;
+}

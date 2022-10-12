@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    box-sizing: border-box;
+    max-width: 100%
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-wrap: normal;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgb(28, 28, 32);
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-family: "Bangers";
+}
+
+.brand-title:hover {
+    color: brown;
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.profile {
+    margin: .5rem;
+    font-size: 25px;
+}
+
+header{
+    margin-bottom: 0px;
+}
+
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.nav_links-ul{
+    padding-left: 0%;
+}
+
+.nav_links li a:hover {
+    color: rgb(236, 226, 226);
+    background-color: rgb(197, 38, 38);
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+}
+
+.coaching-submenu{
+    display: none;
+    position: absolute;
+    width: inherit;
+    overflow: auto;
+    background-color: #999;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.coaching:hover .coaching-submenu{
+    display: block;
+    align-items: center;
+    transition-delay: 00.3s;
+    transition: 0.3s;
+    text-align: center;
+}
+
+
+.DM_logo{
+    width: 45px;
+    margin-left: 20px;
+}
+
+/* main class start */
+
+
+
+
+
+
+
+
+
+
+
+/* main class END */
+
+
+
+.footer_logo{
+    width: 150px;
+}
+
+footer{
+    background-color: rgb(28, 28, 32);
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    padding: 3rem 1rem;
+}
+
+.footer__wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.footer__content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.footer__column {
+    padding-bottom: 2rem;
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.footer__submenu-link{
+    color: rgba(240, 248, 255, 0.527);
+    display: block;
+    text-decoration: none;
+}
+
+.footer__submenu-link:hover{
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.social-icon{
+    fill: #999;
+}
+
+.social-icon:hover {
+    fill: aliceblue;
+    transition: 0.3s;
+}

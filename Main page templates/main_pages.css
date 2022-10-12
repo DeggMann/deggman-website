@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    box-sizing: border-box;
+    max-width: 100%
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-wrap: normal;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgb(28, 28, 32);
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-family: "Bangers";
+}
+
+.brand-title:hover {
+    color: brown;
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.profile {
+    margin: .5rem;
+    font-size: 25px;
+}
+
+header{
+    margin-bottom: 0px;
+}
+
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.nav_links-ul{
+    padding-left: 0%;
+}
+
+.nav_links li a:hover {
+    color: rgb(236, 226, 226);
+    background-color: rgb(197, 38, 38);
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+}
+
+.coaching-submenu{
+    display: none;
+    position: absolute;
+    width: inherit;
+    overflow: auto;
+    background-color: #999;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.coaching:hover .coaching-submenu{
+    display: block;
+    align-items: center;
+    transition-delay: 00.3s;
+    transition: 0.3s;
+    text-align: center;
+}
+
+
+.DM_logo{
+    width: 45px;
+    margin-left: 20px;
+}
+
+/* MAIN CLASS START */
+
+
+.c-title{
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    font-size: 200px;
+    font-family: "Bangers";
+    margin: 0%;
+}
+
+.dp_title{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    font-size: 200px;
+    font-family: "Bangers";
+    margin: 0%;
+}
+
+
+
+#pro-title{
+    position: absolute;
+    right: 30%;
+    top: 20%;
+    font-size: 200px;
+    font-family: "Bangers";
+    margin: 0%;
+}
+
+
+
+    /* ----------product colums ------------- */
+.box-container{
+    display:flex;
+    padding: 10% 10%;
+}
+
+.box_img{
+    width:100%;
+}
+
+.product_img{
+    max-width: 70%;
+    border-radius: 40px;
+    margin: 5%;
+    border-style: solid;
+}
+
+.box-column{
+    display:block;
+    border: rgb(27, 26, 27);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    margin: 3%;
+    box-shadow: 10px 10px black;
+}
+
+.box-column:hover{
+    position: relative;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    
+}
+
+.column-title{
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+
+.product_name{
+    margin: 0%;
+}
+
+.category{
+    background-color: rgb(238, 57, 57);
+    color: aliceblue;
+    padding: 5px 10%;
+    margin: 0% ;
+    border-radius: 2px 30px 2px 30px;
+}
+
+
+.lm-button{
+    font-family: "Montserrat", sans-serif;
+    background-color:rgb(238, 57, 57);
+    border: none;
+    font-size: 38px;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 1% 10%;
+    margin-bottom: 10%;
+    
+}
+
+.lm-button:hover{
+    background-color: rgba(197, 38, 38, 0.479);
+    transition: 0.3s;
+}
+
+
+
+    /*------------product colums ---------- */
+
+    /*------------ funfact box ----------- */
+
+.FF-container{
+    margin: 2% 5%;
+    display: flex;
+    border: 2px solid;
+    box-shadow: 10px 10px;
+    padding: 5%;
+    background-color: rgb(255, 220, 220);
+    border-radius: 30px;
+    font-family: "Bangers";
+}
+
+.half-1{
+    width: 50%;
+    font-size: 50px;
+}
+
+.FF-title{
+    margin: 0%;
+    text-decoration: underline;
+}
+
+.ff-text_area{
+    border: 2px;
+    font-size: 32px;
+    padding-right: 20%;
+}
+
+    /*--------------funfact box end ----------*/
+
+/* MAIN CLASS END */
+
+
+
+.footer_logo{
+    width: 150px;
+}
+
+footer{
+    background-color: rgb(28, 28, 32);
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    padding: 3rem 1rem;
+}
+
+.footer__wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.footer__content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.footer__column {
+    padding-bottom: 2rem;
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.footer__submenu-link{
+    color: rgba(240, 248, 255, 0.527);
+    display: block;
+    text-decoration: none;
+}
+
+.footer__submenu-link:hover{
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.social-icon{
+    fill: #999;
+}
+
+.social-icon:hover {
+    fill: aliceblue;
+    transition: 0.3s;
+}
